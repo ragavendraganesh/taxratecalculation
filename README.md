@@ -29,7 +29,7 @@ sample API defined in the API definition section below.
 7. The CLI application shall handle errors for improper input.
 8. The CLI application shall handle errors for API calls
 
-To run the command:
+# To calculate tax total:
 Clone the repository:
   git clone <url>
   cd taxratecalculation
