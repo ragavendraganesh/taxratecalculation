@@ -2,13 +2,13 @@
 Given some orders with the following properties:
 Order Sub-Total: 1534.00
 Zipcode: 46523
---
+
 Order Sub-Total: 2198.00
 Zipcode: 75093
---
+
 Order Sub-Total: 845.00
 Zipcode: 37312
---
+
 Order Sub-Total: 756.00
 Zipcode: 20500
 
@@ -28,3 +28,11 @@ sample API defined in the API definition section below.
 6. The CLI application shall return the status of the last the POST as the output of the CLI.
 7. The CLI application shall handle errors for improper input.
 8. The CLI application shall handle errors for API calls
+
+To run the command:
+Clone the repository:
+  git clone <url>
+  cd taxratecalculation
+  pip3 install requirements.txt
+  python3 taxcalculator.py --zipcode "75093" --subtotal "2198.00"
+
