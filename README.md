@@ -31,8 +31,8 @@ sample API defined in the API definition section below.
 
 # To calculate tax total:
 Clone the repository:
-  git clone <url>
-  cd taxratecalculation
-  pip3 install requirements.txt
-  python3 taxcalculator.py --zipcode "75093" --subtotal "2198.00"
+1. git clone <url>
+2. cd taxratecalculation
+3. pip3 install requirements.txt
+4. python3 taxcalculator.py --zipcode "75093" --subtotal "2198.00"
 
